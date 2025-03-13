@@ -1,6 +1,7 @@
 # AI 추천 및 음성 인식과 제스처 기반 레시피 서비스 푸띵(FoodThink)
 
-![alt text](FE/ffood_thing/public/images/메인로고.png)
+![메인로고](https://github.com/user-attachments/assets/314dd4a6-0e16-42c6-8d5c-e4f0f628f2ff)
+
 
 - 배포 URL: https://i12e107.p.ssafy.io/
 
@@ -24,7 +25,8 @@
 
 - 디자인: Figma
 
-![푸띵_아키텍처_설계도](/uploads/503c6fcc39b032383dc566587c18bfbd/푸띵_아키텍처_설계도.png)
+![푸띵_아키텍처_설계도](https://github.com/user-attachments/assets/b0f08a31-acf2-4899-bea8-88e86e1eb8ee)
+
 
 ## 2. 브랜치 전략
 
@@ -85,7 +87,7 @@
 ```
 ## 4. ERD
 
-![푸띵_ERD](/uploads/a1b31fab0a26653fd319eff4cb170ccc/푸띵_ERD.png)
+![푸띵_ERD](https://github.com/user-attachments/assets/b165c5f0-b68f-4d90-a2d1-d89a8386a9cf)
 
 ## 5. 역할 분담
 
@@ -156,7 +158,7 @@
 
 - 레시피 목록, 오늘 뭐 먹지, AI요리 추천, SNS 피드를 클릭하면 페이지로 이동할 수 있습니다.
 - 사이드 토글을 클릭하면, 로그인한 사용자는 레시피 작성, SNS 피드 작성, AI 요리 추천 페이지로 이동할 수 있습니다.
-![홈_화면](/uploads/e331b18ef76215c7d7c8b7e205df1eb1/홈_화면.png)
+![홈_화면](https://github.com/user-attachments/assets/f1fc9bda-1507-4dbf-a056-aa84b8fa4c58)
 
 [로그인]
 - 사이드바를 클릭하면 로그인 버튼을 클릭하여 로그인 페이지로 이동합니다.
@@ -173,16 +175,16 @@
   - 요리 시작 버튼을 눌러 하단의 "요리 과정"기능을 실행할 수 있습니다.
   - 로그인 사용자에 한하여 직접 작성한 게시글을 수정하거나 삭제할 수 있습니다.
 
-![카테고리_선택](/uploads/36bffbd2798246ec0ff3e1b37e0967b1/카테고리_선택.gif)
+![카테고리_선택](https://github.com/user-attachments/assets/8cc900d5-e030-47a2-839a-2faafc799aa5)
 
 [검색 페이지]
 
 - 레시피 목록페이지나 홈 화면에서 검색바에 원하는 레시피에 원하는 재료, 레시피 제목을 입력하면 레시피 검색 페이지로 이동되면 실시간 검색으로 레시피 목록을 최신순으로 확인할 수 있습니다.
-![엘라스틱_서치](/uploads/b12229ea0ec6decfaa5b3f32a9076bc7/엘라스틱_서치.gif)
+![엘라스틱_서치](https://github.com/user-attachments/assets/23a76551-2201-4b43-9a66-755b4ce6e080)
 
 [요리 과정]
 - 사용자는 요리 과정중에 타이머 조작, 요리 과정 전/후 넘기기, 다시 읽어주기를 음성인식으로 요리 과정에 도움을 줄 수 있습니다.
-![음성인식_타이머_설정_](/uploads/673324d48a4c7ac54e313549a4a0f6e6/음성인식_타이머_설정_.gif)
+![음성인식_타이머_설정_](https://github.com/user-attachments/assets/06fc2dc6-6eeb-4193-bdb7-ef9480d21a73)
 
 [AI 추천]
 
@@ -191,21 +193,21 @@
   이때, 사용자는 원하지 않는 질문이라면 다음 질문으로 넘어갈 수 있고, 바로 추천받을 수 있습니다.
 - 사용자의 활동 정보와 응답한 내용을 기반으로 3가지의 요리를 추천받을 수 있습니다.
 - 추천 받은 요리를 클릭하면 해당 요리에 대한 재료, 조리과정을 확인할 수 있습니다. 
-![AI_요리추천](/uploads/3089500b1b7a4b7bde1178d5887eef92/AI_요리추천.gif)
+![AI_요리추천](https://github.com/user-attachments/assets/362223bb-8e3c-4c3a-9f24-467b1bd5b521)
 
 [오늘 뭐 먹지]
 
 - 메인 페이지의 AI 요리추천 버튼을 클릭하면 오늘 뭐먹지 모달창이 나타납니다.
 - 사용자는 랜덤으로 요리를 추천받을 수 있습니다.
 - 새로고침 버튼을 클릭하면 다른 요리를 랜덤으로 추천받을 수 있습니다.
-![오늘_뭐_먹지](/uploads/9ae98e72087e777383891db7767a8c6e/오늘_뭐_먹지.gif)
+![오늘_뭐_먹지](https://github.com/user-attachments/assets/8328a168-ef85-4e04-8d5d-05e069b0b28e)
 
 [SNS]
 
 - 사용자가 자신이 만든 요리의 사진과 레시피를 피드에 올려 다른 사용자와 공유하고 소통할 수 있는 기능을 제공합니다.
 - 레시피 상세 페이지로 이동하면 피드 좋아요, 댓글을 작성할 수 있습니다.
 - 참조한 레시피가 있는 경우 해당 레시피로 바로 이동하여 레시피를 확인가능합니다.
-![SNS_예시_엘라스틱_서치_포함_](/uploads/a4edded6c207cf045b1db131070b2fd0/SNS_예시_엘라스틱_서치_포함_.gif)
+![SNS_예시_엘라스틱_서치_포함_](https://github.com/user-attachments/assets/80185191-efbf-47c3-b734-cf6f131d312a)
 
 [마이 페이지]
 
@@ -213,7 +215,7 @@
 - 프로필 사진, 닉네임, 프로필 배경, 선호/기피 재료를 수정할 수 있습니다.
 - 사용자가 구독한 타 사용자의 목록을 확인할 수 있습니다.
 - 사용자가 서비스 회원탈퇴를 원하는 경우 회원탈퇴 버튼을 통해 회원탈퇴할 수 있습니다.
-![마이_페이지](/uploads/d918435d112da02bfd7f3957b3828985/마이_페이지.png)
+![마이_페이지](https://github.com/user-attachments/assets/445c8eda-306b-47b4-9575-df7c33d215ab)
 
 ## 8. 개선 목표
 
